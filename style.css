@@ -1,9 +1,9 @@
-
+/* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100vh, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(90vh, 1fr));
 }
 
 body{
@@ -18,7 +18,7 @@ body{
 footer{
     display:block;
     text-align: center;
-    font-size: 0.7rem
+    font-size: 0.9rem
 }
 
 h2{
@@ -38,7 +38,8 @@ rb{
 /* section 1 */
 .section-1{
     padding-top: 40vh;
-    padding-left: 20vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     text-align: center;
 }
 
@@ -65,7 +66,6 @@ rb{
     padding-left: 5vw;
     padding-right: 5vw;
 }
-
 
 .section-2 h2{
     font-size: 1.3rem;
@@ -96,7 +96,7 @@ rb{
     font-weight: bold;
     color: #ff6600;
     cursor: cross;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .section-1 a:hover{
@@ -104,8 +104,5 @@ rb{
     font-size: 1.7rem;
     color: #ff6600;
     cursor: cross;
-    transition: 0.4s;
+    transition: 0.3s;
 }
-
-
-
