@@ -1,2 +1,2 @@
 # anrikus.github.io
-Pesonal Landing Page
+Personal Landing Page
